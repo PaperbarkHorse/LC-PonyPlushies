@@ -113,7 +113,7 @@ public class PluginConfig
             {
                 Section = "Item - Mystery Box",
                 Name = "Purchased Pony Value",
-                Description = "The scrap value of ponies obtained from purchased Mystery Boxes as a percentage of the box's original value. A value of 1 means the pony will be the same price as the box, and 0 means it will always have no value.",
+                Description = "The scrap value of ponies obtained from purchased Mystery Boxes as a percentage of the box's original value. A value of 1 means the pony will be the same price you paid to purchase the Mystery Box, and 0 means it will always have no value.",
                 Min = 0.0f,
                 Max = 1.0f,
             })
@@ -198,7 +198,7 @@ public class PluginConfig
                 new IntInputFieldConfigItem(item.SpawnWeight, new IntInputFieldOptions
                 {
                     Section = section,
-                    Name = "Spawn Weight",
+                    Name = "Spawn Chance",
                     Description = "The weighted chance for this pony to spawn",
                     Min = 1,
                     Max = 1000,
@@ -254,7 +254,7 @@ public class PluginConfig
                 new IntInputFieldConfigItem(item.MysteryBoxWeight, new IntInputFieldOptions
                 {
                     Section = section,
-                    Name = "Mystery Box Weight",
+                    Name = "Mystery Box Chance",
                     Description = "The weighted chance of this pony spawning in a Mystery Box",
                     Min = 1,
                     Max = 1000000,
