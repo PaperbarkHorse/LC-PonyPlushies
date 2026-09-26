@@ -1,0 +1,247 @@
+{
+    "Vanilla/Mystery Box": {
+        "priority": 1,
+        "item_rotation": [-80, -20, 225],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Mystery Box Loot": {
+        "priority": 1,
+        "item_rotation": [-80, -20, 225],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Apple Bloom": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Applejack": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Autumn Blaze": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Babs Seed": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Berry Punch": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Big Mac": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Bon Bon": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Braeburn": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Princess Cadance": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Princess Celestia": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Cheese Sandwich": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Queen Chrysalis": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Daybreaker": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Derpy": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Discord": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Dr. Hooves": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Fizzy": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Fluttershy": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Granny Smith": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Kerfuffle": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/King Sombra": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Littlepip": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Princess Luna": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Lyra": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Maud Pie": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Minuette": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Moon Dancer": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Nightmare Moon": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Octavia": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Pinkie Pie": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Punk Rarity": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Rainbow Dash": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Rarity": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Scootaloo": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Shining Armor": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Snowdrop": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Spike": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Starlight Glimmer": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Stoney Pony": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Sunburst": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Sunset Shimmer": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Sweetie Belle": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Tempest Shadow": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Trixie": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Twilight Sparkle": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Vinyl Scratch": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Vanilla/Zecora": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    }
+}

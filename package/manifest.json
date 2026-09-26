@@ -1,0 +1,7 @@
+{
+    "name": "PonyPlushies",
+    "version_number": "1.0.0",
+    "description": "Adds My Little Pony scraps to the game",
+    "website_url": "https://github.com/PaperbarkHorse/LC-PonyPlushies",
+    "dependencies": ["BepInEx-BepInExPack-5.4.2100", "TeamXiaolan-DawnLib-0.9.3"]
+}
