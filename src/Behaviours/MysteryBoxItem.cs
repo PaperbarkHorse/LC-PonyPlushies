@@ -11,6 +11,9 @@ public class MysteryBoxItem : GiftBoxItem
 
     public bool IsShopItem = false;
 
+    private bool opened = false;
+    private float despawnTimer = 0;
+
     public override void InitializeAfterPositioning()
     {
         base.InitializeAfterPositioning();
@@ -71,6 +74,33 @@ public class MysteryBoxItem : GiftBoxItem
         AccessTools.Field(typeof(GiftBoxItem), "objectInPresentItem").SetValue(this, objectInPresentItem);
         AccessTools.Field(typeof(GiftBoxItem), "objectInPresent").SetValue(this, objectInPresent);
         AccessTools.Field(typeof(GiftBoxItem), "objectInPresentValue").SetValue(this, objectInPresentValue);
+    }
+
+    public override void ItemActivate(bool used, bool buttonDown = true)
+    {
+        base.ItemActivate(used, buttonDown);
+
+        if (IsServer)
+        {
+            opened = true;
+        }
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
+        if (opened)
+        {
+            despawnTimer += Time.deltaTime;
+        }
+
+        if (despawnTimer > 1)
+        {
+            DiscardItem();
+            NetworkObject.Despawn();
+            opened = false;
+        }
     }
 
 }
