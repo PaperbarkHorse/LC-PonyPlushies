@@ -91,16 +91,19 @@ public class MysteryBoxItem : GiftBoxItem
     {
         base.Update();
 
-        if (opened)
+        if (IsServer)
         {
-            despawnTimer += Time.deltaTime;
-        }
+            if (opened)
+            {
+                despawnTimer += Time.deltaTime;
+            }
 
-        if (despawnTimer > 1)
-        {
-            DiscardItem();
-            NetworkObject.Despawn();
-            opened = false;
+            if (despawnTimer > 1)
+            {
+                DiscardItem();
+                NetworkObject.Despawn();
+                opened = false;
+            }
         }
     }
 

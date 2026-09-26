@@ -18,8 +18,17 @@ public class PluginItems
         }
 
         MysteryBoxItem = Plugin.ModAssets.LoadAsset<Item>($"{Plugin.AssetLocation}/Items/MysteryBox/MysteryBoxItem.asset");
+        GameObject mysteryBoxPrefab = Plugin.ModAssets.LoadAsset<GameObject>($"{Plugin.AssetLocation}/Items/MysteryBox/MysteryBoxPrefab.prefab");
+
         MysteryBoxItem.minValue = (int)(PonyTypes.DefaultValues.MinValue / 0.4f);
         MysteryBoxItem.maxValue = (int)(PonyTypes.DefaultValues.MaxValue / 0.4f);
+
+        if (mysteryBoxPrefab == null)
+        {
+            Plugin.logger.LogError("Failed to load Mystery Box - prefab not found in asset bundle");
+        }
+
+        Plugin.PrefabsToRegsiter.Add(mysteryBoxPrefab);
 
         DawnLib.DefineItem(
             NamespacedKey<DawnItemInfo>.From("ponyplushies", "MysteryBox"),
@@ -39,6 +48,16 @@ public class PluginItems
         );
 
         MysteryBoxStoreItem = Plugin.ModAssets.LoadAsset<Item>($"{Plugin.AssetLocation}/Items/MysteryBox/MysteryBoxStoreItem.asset");
+        GameObject mysteryBoxStorePrefab = Plugin.ModAssets.LoadAsset<GameObject>($"{Plugin.AssetLocation}/Items/MysteryBox/MysteryBoxStorePrefab.prefab");
+
+        if (mysteryBoxStorePrefab == null)
+        {
+            Plugin.logger.LogError("Failed to load Mystery Box - prefab not found in asset bundle");
+        }
+
+        Plugin.PrefabsToRegsiter.Add(mysteryBoxStorePrefab);
+
+
         DawnLib.DefineItem(
             NamespacedKey<DawnItemInfo>.From("ponyplushies", "MysteryBoxStore"),
             MysteryBoxStoreItem,
