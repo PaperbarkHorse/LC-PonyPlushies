@@ -20,8 +20,6 @@ public class Plugin : BaseUnityPlugin
     internal static ManualLogSource logger = BepInEx.Logging.Logger.CreateLogSource(modName);
     internal static PluginConfig BoundConfig { get; private set; } = null!;
 
-    public static readonly NamespacedKey<DawnItemInfo> TabletItem = NamespacedKey<DawnItemInfo>.From("ponyplushies", "tablet");
-
     public static AssetBundle ModAssets;
     public static readonly string AssetLocation = "assets/LethalCompany/Mods/plugins/PonyPlushies";
 
@@ -33,7 +31,7 @@ public class Plugin : BaseUnityPlugin
         LoadModAssets();
         ApplyPatches();
 
-        InitItems();
+        PluginItems.Init();
 
         logger.LogInfo("Pony Plushies " + modVersion + " is loaded! /)");
     }
@@ -41,7 +39,7 @@ public class Plugin : BaseUnityPlugin
     private void LoadModAssets()
     {
         string assemblyPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-        ModAssets = AssetBundle.LoadFromFile(Path.Combine(assemblyPath, "creaturecounters"));
+        ModAssets = AssetBundle.LoadFromFile(Path.Combine(assemblyPath, "ponyplushies"));
 
         if (ModAssets == null)
         {
@@ -70,19 +68,5 @@ public class Plugin : BaseUnityPlugin
                 }
             }
         }
-    }
-
-    private void InitItems()
-    {
-        DawnLib.DefineItem(TabletItem, ModAssets.LoadAsset<Item>(AssetLocation + "/Items/Tablet/TabletItem.asset"), builder => builder
-            .DefineScrap(scrap => scrap
-                .SetWeights(weights => weights
-                    .SetGlobalWeight(5)
-                )
-            )
-            .DefineShop(shop => shop
-                .OverrideCost(150)
-            )
-        );
     }
 }
