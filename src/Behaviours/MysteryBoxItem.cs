@@ -28,7 +28,8 @@ public class MysteryBoxItem : GiftBoxItem
 
         PonyType[] ponies = PonyTypes.All
             .Where(pony => pony.Item != null)
-            .Where(pony => pony.Values.MysteryBoxEnabled == true && pony.Values.MysteryBoxWeight > 0)
+            .Where(pony => Plugin.BoundConfig.PonyConfigs[pony.Id].MysteryBoxEnabled.Value == true)
+            .Where(pony => Plugin.BoundConfig.PonyConfigs[pony.Id].MysteryBoxWeight.Value > 0)
             .ToArray();
 
         if (ponies.Length <= 0)
@@ -45,7 +46,7 @@ public class MysteryBoxItem : GiftBoxItem
         List<int> weights = new List<int>();
         foreach (PonyType pony in ponies)
         {
-            weights.Add(pony.Values.MysteryBoxWeight);
+            weights.Add(Plugin.BoundConfig.PonyConfigs[pony.Id].MysteryBoxWeight.Value);
         }
 
         int randomWeightedIndexList = RoundManager.Instance.GetRandomWeightedIndexList(weights, random);
