@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using BepInEx;
@@ -14,7 +15,7 @@ public class Plugin : BaseUnityPlugin
 {
     public const string modGUID = "horse.paperbark.PonyPlushies";
     public const string modName = "PonyPlushies";
-    public const string modVersion = "0.0.0";
+    public const string modVersion = "1.0.0";
 
     private static Harmony harmony = new Harmony(modGUID);
     internal static ManualLogSource logger = BepInEx.Logging.Logger.CreateLogSource(modName);
@@ -22,6 +23,8 @@ public class Plugin : BaseUnityPlugin
 
     public static AssetBundle ModAssets;
     public static readonly string AssetLocation = "assets/LethalCompany/Mods/plugins/PonyPlushies";
+
+    public static List<GameObject> PrefabsToRegsiter = new List<GameObject>();
 
     void Awake()
     {

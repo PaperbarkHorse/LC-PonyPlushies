@@ -1,5 +1,6 @@
 using System;
 using Dawn;
+using UnityEngine;
 
 namespace PonyPlushies;
 
@@ -58,6 +59,7 @@ public class PluginItems
         Plugin.logger.LogDebug($"Initialising pony {pony.Id}");
 
         Item item = Plugin.ModAssets.LoadAsset<Item>($"{Plugin.AssetLocation}/Ponies/{pony.Id}/{pony.Id}Item.asset");
+        GameObject prefab = Plugin.ModAssets.LoadAsset<GameObject>($"{Plugin.AssetLocation}/Ponies/{pony.Id}/{pony.Id}Prefab.prefab");
         PonyConfig config = Plugin.BoundConfig.PonyConfigs[pony.Id];
 
         if (item == null)
@@ -66,11 +68,19 @@ public class PluginItems
             return;
         }
 
+        if (prefab == null)
+        {
+            Plugin.logger.LogError($"Failed to load pony {pony.Id} - prefab not found in bundle");
+            return;
+        }
+
         if (config == null)
         {
             Plugin.logger.LogError($"Failed to load pony {pony.Id} - config values not found");
             return;
         }
+
+        Plugin.PrefabsToRegsiter.Add(prefab);
 
         item.minValue = (int)Math.Round(config.MinValue.Value / 0.4);
         item.maxValue = (int)Math.Round(config.MaxValue.Value / 0.4);
