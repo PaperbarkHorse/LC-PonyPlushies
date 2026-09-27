@@ -14,6 +14,11 @@ Mystery boxes can be found by default as scrap or purchased from the store using
 
 ## Ponies
 
+<details>
+<summary>
+Click to view the full list of ponies added by the mod
+</summary>
+
 - Apple Bloom
 - Applejack
 - Autumn Blaze
@@ -61,10 +66,18 @@ Mystery boxes can be found by default as scrap or purchased from the store using
 - Twilight Sparkle
 - Vinyl Scratch
 - Zecora
+      </details>
 
 ## Configuration
 
 The mod can be tweaked through its config file, found in your BepInEx folder at `BepInEx/config/horse.paperbark.PonyPlushies.cfg`, or in-game with [LethalConfig](https://thunderstore.io/c/lethal-company/p/AinaVT/LethalConfig/). Most options are determined by the host's settings, though all players should have the same config file to avoid potential desyncs.
+
+## Compatibility
+
+- [RuntimeIcons](https://thunderstore.io/c/lethal-company/p/LethalCompanyModding/RuntimeIcons/)
+    - Ponies get auto-generated icons in the hotbar instead of using the default scrap icon.
+- [Wesley's Moons](https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Wesleys_Moons/) & [Wesley's Interiors](https://thunderstore.io/c/lethal-company/p/Magic_Wesley/WesleysInteriors/)
+    - Ponies and mystery boxes spawn more frequently in toy store interiors (configurable).
 
 ## Screenshots
 
@@ -74,4 +87,4 @@ The mod can be tweaked through its config file, found in your BepInEx folder at 
 
 ## Bug Reports
 
-If you find a bug or have a feature request, you can submit it on the [GitHub issues page](https://github.com/PaperbarkHorse/LC-PonyPlushies/issues) for the mod. Be sure to include the version of the mod you're playing with and any other mods you have installed.
+If you find a bug or have a feature request, you can submit it on the mod's [GitHub issues page](https://github.com/PaperbarkHorse/LC-PonyPlushies/issues). Be sure to include the version of the mod you're playing with and any other mods you have installed.
