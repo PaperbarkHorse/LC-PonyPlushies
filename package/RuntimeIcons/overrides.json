@@ -4,7 +4,27 @@
         "item_rotation": [-80, -20, 225],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Mystery Box": {
+        "priority": 1,
+        "item_rotation": [-80, -20, 225],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Mystery Box": {
+        "priority": 1,
+        "item_rotation": [-80, -20, 225],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Mystery Box Loot": {
+        "priority": 1,
+        "item_rotation": [-80, -20, 225],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Mystery Box Loot": {
+        "priority": 1,
+        "item_rotation": [-80, -20, 225],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Mystery Box Loot": {
         "priority": 1,
         "item_rotation": [-80, -20, 225],
         "stage_rotation": [0, 0, 0]
@@ -14,7 +34,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Apple Bloom": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Apple Bloom": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Applejack": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Applejack": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Applejack": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -24,7 +64,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Autumn Blaze": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Autumn Blaze": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Babs Seed": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Babs Seed": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Babs Seed": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -34,7 +94,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Berry Punch": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Berry Punch": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Big Mac": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Big Mac": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Big Mac": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -44,7 +124,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Bon Bon": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Bon Bon": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Braeburn": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Braeburn": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Braeburn": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -54,7 +154,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Princess Cadance": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Princess Cadance": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Princess Celestia": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Princess Celestia": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Princess Celestia": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -64,7 +184,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Cheese Sandwich": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Cheese Sandwich": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Queen Chrysalis": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Queen Chrysalis": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Queen Chrysalis": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -74,7 +214,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Daybreaker": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Daybreaker": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Derpy": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Derpy": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Derpy": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -84,7 +244,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Discord": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Discord": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Dr. Hooves": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Dr. Hooves": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Dr. Hooves": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -94,7 +274,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Fizzy": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Fizzy": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Fluttershy": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Fluttershy": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Fluttershy": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -104,7 +304,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Granny Smith": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Granny Smith": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Kerfuffle": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Kerfuffle": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Kerfuffle": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -114,7 +334,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/King Sombra": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/King Sombra": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Littlepip": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Littlepip": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Littlepip": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -124,7 +364,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Princess Luna": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Princess Luna": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Lyra": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Lyra": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Lyra": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -134,7 +394,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Maud Pie": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Maud Pie": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Minuette": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Minuette": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Minuette": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -144,7 +424,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Moon Dancer": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Moon Dancer": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Nightmare Moon": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Nightmare Moon": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Nightmare Moon": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -154,7 +454,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Octavia": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Octavia": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Pinkie Pie": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Pinkie Pie": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Pinkie Pie": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -164,7 +484,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Punk Rarity": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Punk Rarity": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Rainbow Dash": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Rainbow Dash": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Rainbow Dash": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -174,7 +514,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Rarity": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Rarity": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Scootaloo": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Scootaloo": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Scootaloo": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -184,7 +544,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Shining Armor": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Shining Armor": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Snowdrop": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Snowdrop": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Snowdrop": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -194,7 +574,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Spike": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Spike": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Starlight Glimmer": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Starlight Glimmer": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Starlight Glimmer": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -204,7 +604,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Stoney Pony": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Stoney Pony": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Sunburst": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Sunburst": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Sunburst": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -214,7 +634,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Sunset Shimmer": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Sunset Shimmer": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Sweetie Belle": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Sweetie Belle": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Sweetie Belle": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -224,7 +664,27 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Tempest Shadow": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Tempest Shadow": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Trixie": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Trixie": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Trixie": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
@@ -234,12 +694,42 @@
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Twilight Sparkle": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Twilight Sparkle": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Vinyl Scratch": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
     },
+    "Unknown/Vinyl Scratch": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Vinyl Scratch": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
     "Vanilla/Zecora": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "Unknown/Zecora": {
+        "priority": 1,
+        "item_rotation": [-90, 0, 70],
+        "stage_rotation": [0, 0, 0]
+    },
+    "LethalLevelLoader/Ponyplushies/Zecora": {
         "priority": 1,
         "item_rotation": [-90, 0, 70],
         "stage_rotation": [0, 0, 0]
