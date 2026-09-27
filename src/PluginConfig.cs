@@ -52,7 +52,7 @@ public class PluginConfig
         AllowDineSpawning = config.Bind(
             "General",
             "AllowDineSpawning",
-            true,
+            false,
             "Whether ponies can spawn on Dine. In vanilla, Dine is supposed to only spawn body parts as scrap. With this enabled, ponies will spawn frequently on Dine due to the limited loot pool on this moon."
         );
         LethalConfigManager.AddConfigItem(

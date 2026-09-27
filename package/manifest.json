@@ -1,6 +1,6 @@
 {
     "name": "PonyPlushies",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "description": "Adds 47 My Little Pony plushies which can be found as scrap or purchased from the store",
     "website_url": "https://github.com/PaperbarkHorse/LC-PonyPlushies",
     "dependencies": [
