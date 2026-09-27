@@ -79,8 +79,6 @@ public class MysteryBoxItem : GiftBoxItem
 
     public override void ItemActivate(bool used, bool buttonDown = true)
     {
-        Plugin.logger.LogDebug($"ItemActivate called, used={used} buttonDown={buttonDown} IsServer={IsServer} IsClient={IsClient} IsHost={IsHost} IsOwner={IsOwner}");
-
         if (IsServer)
         {
             base.ItemActivate(used, buttonDown);
