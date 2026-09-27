@@ -10,7 +10,8 @@ using UnityEngine;
 namespace PonyPlushies;
 
 [BepInPlugin(modGUID, modName, modVersion)]
-[BepInDependency("ainavt.lc.lethalconfig")]
+[BepInDependency("ainavt.lc.lethalconfig", BepInDependency.DependencyFlags.HardDependency)]
+[BepInDependency("com.github.teamxiaolan.dawnlib", BepInDependency.DependencyFlags.HardDependency)]
 public class Plugin : BaseUnityPlugin
 {
     public const string modGUID = "horse.paperbark.PonyPlushies";
