@@ -12,13 +12,20 @@ public class PluginConfig
 {
     public Dictionary<string, PonyConfig> PonyConfigs;
 
+    // General
     public ConfigEntry<bool> TwoHandedPonies;
+    public ConfigEntry<bool> AllowDineSpawning;
 
+    // Mystery Box
     public ConfigEntry<bool> MysteryBoxSpawnEnabled;
     public ConfigEntry<int> MysteryBoxSpawnWeight;
     public ConfigEntry<bool> MysteryBoxStoreEnabled;
     public ConfigEntry<int> MysteryBoxStorePrice;
     public ConfigEntry<float> MysteryBoxSellbackMultiplier;
+
+    // Wesley's Moons Compat
+    public ConfigEntry<float> ToyStorePonyMultiplier;
+    public ConfigEntry<float> ToyStoreMysteryBoxMultiplier;
 
     public PluginConfig(ConfigFile config)
     {
@@ -26,43 +33,13 @@ public class PluginConfig
 
         config.SaveOnConfigSet = false;
 
+        // General
         TwoHandedPonies = config.Bind(
-            $"General",
+            "General",
             "TwoHandedPonies",
             true,
             "Whether some larger ponies (e.g. Celestia, Luna, Queen Chrysalis) are considered two-handed items"
         );
-        MysteryBoxSpawnEnabled = config.Bind(
-            $"Item.MysteryBox",
-            "MysteryBoxSpawnEnabled",
-            true,
-            "Whether Mystery Boxes containing a random pony can spawn as scrap on moons"
-        );
-        MysteryBoxSpawnWeight = config.Bind(
-            $"Item.MysteryBox",
-            "MysteryBoxSpawnWeight",
-            8,
-            "The weighted chance for a Mystery Box to spawn"
-        );
-        MysteryBoxStoreEnabled = config.Bind(
-            $"Item.MysteryBox",
-            "MysteryBoxStoreEnabled",
-            true,
-            "Whether Mystery Boxes can be purchased via the terminal"
-        );
-        MysteryBoxStorePrice = config.Bind(
-            $"Item.MysteryBox",
-            "MysteryBoxStorePrice",
-            100,
-            "The price to buy a Mystery Box from the terminal"
-        );
-        MysteryBoxSellbackMultiplier = config.Bind(
-            $"Item.MysteryBox",
-            "MysteryBoxSellbackMultiplier",
-            0.5f,
-            "The scrap value of ponies obtained from purchased Mystery Boxes as a percentage of its original value"
-        );
-
         LethalConfigManager.AddConfigItem(
             new BoolCheckBoxConfigItem(TwoHandedPonies, new BoolCheckBoxOptions
             {
@@ -72,46 +49,96 @@ public class PluginConfig
             })
         );
 
+        AllowDineSpawning = config.Bind(
+            "General",
+            "AllowDineSpawning",
+            true,
+            "Whether ponies can spawn on Dine. In vanilla, Dine is supposed to only spawn body parts as scrap. With this enabled, ponies will spawn frequently on Dine due to the limited loot pool on this moon."
+        );
+        LethalConfigManager.AddConfigItem(
+            new BoolCheckBoxConfigItem(AllowDineSpawning, new BoolCheckBoxOptions
+            {
+                Section = "General",
+                Name = "Spawn Ponies on Dine",
+                Description = "Whether ponies can spawn on Dine. In vanilla, Dine is supposed to only spawn body parts as scrap. With this enabled, ponies will spawn frequently on Dine due to the limited loot pool on this moon.",
+            })
+        );
+
+        // Mystery Box
+        MysteryBoxSpawnEnabled = config.Bind(
+            "MysteryBox",
+            "MysteryBoxSpawnEnabled",
+            true,
+            "Whether Mystery Boxes containing a random pony can spawn as scrap on moons"
+        );
         LethalConfigManager.AddConfigItem(
             new BoolCheckBoxConfigItem(MysteryBoxSpawnEnabled, new BoolCheckBoxOptions
             {
-                Section = "Item - Mystery Box",
+                Section = "Mystery Box",
                 Name = "Spawn as Scrap",
                 Description = "Whether Mystery Boxes containing a random pony can spawn as scrap on moons",
             })
         );
+
+        MysteryBoxSpawnWeight = config.Bind(
+            "MysteryBox",
+            "MysteryBoxSpawnWeight",
+            8,
+            "The weighted chance for a Mystery Box to spawn"
+        );
         LethalConfigManager.AddConfigItem(
             new IntInputFieldConfigItem(MysteryBoxSpawnWeight, new IntInputFieldOptions
             {
-                Section = "Item - Mystery Box",
+                Section = "Mystery Box",
                 Name = "Spawn Weight",
                 Description = "The weighted chance for a Mystery Box to spawn",
                 Min = 1,
                 Max = 1000,
             })
         );
+
+        MysteryBoxStoreEnabled = config.Bind(
+            "MysteryBox",
+            "MysteryBoxStoreEnabled",
+            true,
+            "Whether Mystery Boxes can be purchased via the terminal"
+        );
         LethalConfigManager.AddConfigItem(
             new BoolCheckBoxConfigItem(MysteryBoxStoreEnabled, new BoolCheckBoxOptions
             {
-                Section = "Item - Mystery Box",
+                Section = "Mystery Box",
                 Name = "Purchase from Store",
                 Description = "Whether Mystery Boxes can be purchased via the terminal",
             })
         );
+
+        MysteryBoxStorePrice = config.Bind(
+            "MysteryBox",
+            "MysteryBoxStorePrice",
+            100,
+            "The price to buy a Mystery Box from the terminal"
+        );
         LethalConfigManager.AddConfigItem(
             new IntInputFieldConfigItem(MysteryBoxStorePrice, new IntInputFieldOptions
             {
-                Section = "Item - Mystery Box",
+                Section = "Mystery Box",
                 Name = "Store Price",
                 Description = "The cost to purchase a Mystery Box via the terminal",
                 Min = 1,
                 Max = 1000000,
             })
         );
+
+        MysteryBoxSellbackMultiplier = config.Bind(
+            "MysteryBox",
+            "MysteryBoxSellbackMultiplier",
+            0.5f,
+            "The scrap value of ponies obtained from purchased Mystery Boxes as a percentage of its original value"
+        );
         LethalConfigManager.AddConfigItem(
             new FloatSliderConfigItem(MysteryBoxSellbackMultiplier, new FloatSliderOptions
             {
-                Section = "Item - Mystery Box",
+                Section = "Mystery Box",
                 Name = "Purchased Pony Value",
                 Description = "The scrap value of ponies obtained from purchased Mystery Boxes as a percentage of the box's original value. A value of 1 means the pony will be the same price you paid to purchase the Mystery Box, and 0 means it will always have no value.",
                 Min = 0.0f,
@@ -119,6 +146,42 @@ public class PluginConfig
             })
         );
 
+        // Wesley's Moons Compat
+        ToyStorePonyMultiplier = config.Bind(
+            "Compat.WesleysMoons",
+            "ToyStorePonyMultiplier",
+            3.0f,
+            "Multiplies the chance for ponies to spawn in Toy Store interiors by this amount"
+        );
+        LethalConfigManager.AddConfigItem(
+            new FloatSliderConfigItem(ToyStorePonyMultiplier, new FloatSliderOptions
+            {
+                Section = "Compat - Wesley's Moons",
+                Name = "Toy Store Pony Multiplier",
+                Description = "Multiplies the chance for ponies to spawn in Toy Store interiors by this amount",
+                Min = 1.0f,
+                Max = 20.0f,
+            })
+        );
+
+        ToyStoreMysteryBoxMultiplier = config.Bind(
+            "Compat.WesleysMoons",
+            "ToyStoreMysteryBoxMultiplier",
+            5.0f,
+            "Multiplies the chance for Mystery Boxes to spawn in Toy Store interiors by this amount"
+        );
+        LethalConfigManager.AddConfigItem(
+            new FloatSliderConfigItem(ToyStoreMysteryBoxMultiplier, new FloatSliderOptions
+            {
+                Section = "Compat - Wesley's Moons",
+                Name = "Toy Store Mystery Box Multiplier",
+                Description = "Multiplies the chance for ponies to spawn in Toy Store interiors by this amount",
+                Min = 1.0f,
+                Max = 20.0f,
+            })
+        );
+
+        // Ponies
         InitPonyConfigs(config);
 
         ClearOrphanedEntries(config);

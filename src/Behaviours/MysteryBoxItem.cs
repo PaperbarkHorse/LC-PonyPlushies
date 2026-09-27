@@ -16,7 +16,6 @@ public class MysteryBoxItem : GiftBoxItem
 
     public override void InitializeAfterPositioning()
     {
-        base.InitializeAfterPositioning();
         bool loadedItemFromSave = (bool)AccessTools.Field(typeof(GiftBoxItem), "loadedItemFromSave").GetValue(this);
 
         if (loadedItemFromSave || !IsServer)

@@ -40,7 +40,7 @@ public class PluginItems
                     builder.DefineScrap(scrap => scrap
                         .SetWeights(weights =>
                         {
-                            weights.SetGlobalWeight(Plugin.BoundConfig.MysteryBoxSpawnWeight.Value);
+                            weights.SetGlobalWeight(new MysteryBoxSpawnWeightProvider());
                         })
                     );
                 }
@@ -121,8 +121,7 @@ public class PluginItems
                     builder.DefineScrap(scrap => scrap
                         .SetWeights(weights =>
                         {
-                            weights.SetGlobalWeight(config.SpawnWeight.Value);
-                            // TODO: Tags + integrations
+                            weights.SetGlobalWeight(new PonySpawnWeightProvider(pony));
                         })
                     );
                 }
@@ -137,4 +136,51 @@ public class PluginItems
         );
     }
 
+}
+
+public class PonySpawnWeightProvider : IContextualProvider<int?, DawnMoonInfo, SpawnWeightContext>
+{
+    private PonyType pony;
+
+    public PonySpawnWeightProvider(PonyType pony)
+    {
+        this.pony = pony;
+    }
+
+    public int? Provide(DawnMoonInfo info, SpawnWeightContext ctx)
+    {
+        int weight = Plugin.BoundConfig.PonyConfigs[pony.Id].SpawnWeight.Value;
+
+        if (Plugin.BoundConfig.AllowDineSpawning.Value == false && ctx.Moon.Key.ToString() == "lethal_company:dine")
+        {
+            return 0;
+        }
+
+        if (ctx.Dungeon.Key.ToString() == "toy_store:toystoreflow")
+        {
+            weight = (int)(weight * Plugin.BoundConfig.ToyStorePonyMultiplier.Value);
+        }
+
+        return weight;
+    }
+}
+
+public class MysteryBoxSpawnWeightProvider : IContextualProvider<int?, DawnMoonInfo, SpawnWeightContext>
+{
+    public int? Provide(DawnMoonInfo info, SpawnWeightContext ctx)
+    {
+        int weight = Plugin.BoundConfig.MysteryBoxSpawnWeight.Value;
+
+        if (Plugin.BoundConfig.AllowDineSpawning.Value == false && ctx.Moon.Key.ToString() == "lethal_company:dine")
+        {
+            return 0;
+        }
+
+        if (ctx.Dungeon.Key.ToString() == "toy_store:toystoreflow")
+        {
+            weight = (int)(weight * Plugin.BoundConfig.ToyStoreMysteryBoxMultiplier.Value);
+        }
+
+        return weight;
+    }
 }
