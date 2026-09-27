@@ -151,12 +151,12 @@ public class PonySpawnWeightProvider : IContextualProvider<int?, DawnMoonInfo, S
     {
         int weight = Plugin.BoundConfig.PonyConfigs[pony.Id].SpawnWeight.Value;
 
-        if (Plugin.BoundConfig.AllowDineSpawning.Value == false && ctx.Moon.Key.ToString() == "lethal_company:dine")
+        if (Plugin.BoundConfig.AllowDineSpawning.Value == false && ctx.Moon != null && ctx.Moon.Key.ToString() == "lethal_company:dine")
         {
             return 0;
         }
 
-        if (ctx.Dungeon.Key.ToString() == "toy_store:toystoreflow")
+        if (ctx.Dungeon != null && ctx.Dungeon.Key.ToString() == "toy_store:toystoreflow")
         {
             weight = (int)(weight * Plugin.BoundConfig.ToyStorePonyMultiplier.Value);
         }
@@ -171,12 +171,12 @@ public class MysteryBoxSpawnWeightProvider : IContextualProvider<int?, DawnMoonI
     {
         int weight = Plugin.BoundConfig.MysteryBoxSpawnWeight.Value;
 
-        if (Plugin.BoundConfig.AllowDineSpawning.Value == false && ctx.Moon.Key.ToString() == "lethal_company:dine")
+        if (Plugin.BoundConfig.AllowDineSpawning.Value == false && ctx.Moon != null && ctx.Moon.Key.ToString() == "lethal_company:dine")
         {
             return 0;
         }
 
-        if (ctx.Dungeon.Key.ToString() == "toy_store:toystoreflow")
+        if (ctx.Dungeon != null && ctx.Dungeon.Key.ToString() == "toy_store:toystoreflow")
         {
             weight = (int)(weight * Plugin.BoundConfig.ToyStoreMysteryBoxMultiplier.Value);
         }
